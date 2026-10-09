@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IPSury | Intellectual Property Services &amp; Consultation, Malaysia</title>
+  <meta name="description" content="IPSury Enterprise provides intellectual property services and consultation: patents, trademarks, industrial designs, copyright and IP training. Led by a registered patent, trademark and industrial design agent and certified IP valuer.">
+  <link rel="canonical" href="https://ipsury.com/">
+  <meta name="theme-color" content="#0E1A2B">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="IPSury">
+  <meta property="og:title" content="IPSury | Intellectual Property Services &amp; Consultation">
+  <meta property="og:description" content="Patents, trademarks, industrial designs, copyright and IP training, with IP strategies that suit each and every client.">
+  <meta property="og:url" content="https://ipsury.com/">
+  <meta property="og:image" content="https://ipsury.com/assets/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IPSury | Intellectual Property Services &amp; Consultation">
+  <meta name="twitter:description" content="Patents, trademarks, industrial designs, copyright and IP training.">
+  <meta name="twitter:image" content="https://ipsury.com/assets/og-image.jpg">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "IPSury Enterprise",
+    "url": "https://ipsury.com/",
+    "email": "afiqah@ipsury.com",
+    "logo": "https://ipsury.com/assets/logo.svg",
+    "description": "Services and consultation on intellectual property: patents, trademarks, industrial designs, copyright and IP training.",
+    "founder": {
+      "@type": "Person",
+      "name": "Afiqah Aisyah binti Suriyadi",
+      "jobTitle": "Managing Director"
+    }
+  }
+  </script>
+
+  <script>document.documentElement.classList.add('js');</script>
+
+  <style>
+    :root{
+      --ink:#0E1A2B;
+      --ink-2:#14243A;
+      --ink-3:#1C3150;
+      --yellow:#ECE12F;
+      --yellow-soft:#F6F0A6;
+      --ivory:#FAF8F1;
+      --paper:#FFFFFF;
+      --text:#1B2533;
+      --muted:#5A6577;
+      --line:#E6E2D3;
+      --line-dark:rgba(255,255,255,.12);
+      --radius:18px;
+      --shadow:0 18px 50px -24px rgba(14,26,43,.35);
+      --serif:"Fraunces", Georgia, "Times New Roman", serif;
+      --sans:"Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+      --max:1160px;
+    }
+    *,*::before,*::after{box-sizing:border-box}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{margin:0;font-family:var(--sans);color:var(--text);background:var(--ivory);line-height:1.65;font-size:16.5px;-webkit-font-smoothing:antialiased}
+    img{max-width:100%;display:block}
+    a{color:inherit}
+    h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;letter-spacing:-.01em}
+    p{margin:0 0 1em}
+    .wrap{width:min(var(--max),100% - 48px);margin-inline:auto}
+    section{scroll-margin-top:76px}
+    .skip{position:absolute;left:-999px;top:8px;background:var(--yellow);color:var(--ink);padding:10px 16px;border-radius:8px;z-index:100;font-weight:600}
+    .skip:focus{left:12px}
+    :focus-visible{outline:3px solid var(--yellow);outline-offset:3px;border-radius:4px}
+
+    /* ---------- Nav ---------- */
+    .nav{position:sticky;top:0;z-index:50;background:rgba(14,26,43,.92);backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);border-bottom:1px solid transparent;transition:border-color .3s, box-shadow .3s}
+    .nav.scrolled{border-bottom-color:var(--line-dark);box-shadow:0 10px 30px -18px rgba(0,0,0,.6)}
+    .nav .wrap{display:flex;align-items:center;justify-content:space-between;height:72px}
+    .brand{display:flex;align-items:center}
+    .brand img{height:34px;width:auto}
+    .menu{display:flex;align-items:center;gap:30px;list-style:none;margin:0;padding:0}
+    .menu a{color:rgba(255,255,255,.78);text-decoration:none;font-size:.93rem;font-weight:500;letter-spacing:.01em;position:relative;padding:6px 0;transition:color .2s}
+    .menu a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--yellow);transform:scaleX(0);transform-origin:left;transition:transform .25s}
+    .menu a:hover,.menu a.active{color:#fff}
+    .menu a:hover::after,.menu a.active::after{transform:scaleX(1)}
+    .menu .cta-link{background:var(--yellow);color:var(--ink);padding:10px 18px;border-radius:999px;font-weight:600}
+    .menu .cta-link::after{display:none}
+    .menu .cta-link:hover{color:var(--ink);background:#fff36a}
+    .burger{display:none;background:none;border:0;padding:10px;margin-right:-10px;cursor:pointer}
+    .burger span{display:block;width:24px;height:2px;background:#fff;margin:5px 0;transition:transform .3s, opacity .3s}
+    .burger[aria-expanded="true"] span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+    .burger[aria-expanded="true"] span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+    /* ---------- Buttons ---------- */
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:999px;font-weight:600;text-decoration:none;font-size:.98rem;transition:transform .2s, background .2s, color .2s, border-color .2s}
+    .btn:hover{transform:translateY(-2px)}
+    .btn-primary{background:var(--yellow);color:var(--ink)}
+    .btn-primary:hover{background:#fff36a}
+    .btn-ghost{border:1.5px solid rgba(255,255,255,.35);color:#fff}
+    .btn-ghost:hover{border-color:#fff}
+    .btn svg{width:18px;height:18px}
+
+    /* ---------- Hero ---------- */
+    .hero{position:relative;background:var(--ink);color:#fff;overflow:hidden;padding:96px 0 0}
+    .hero::before{content:"";position:absolute;inset:0;background:
+      radial-gradient(900px 500px at 85% 10%, rgba(236,225,47,.12), transparent 60%),
+      radial-gradient(700px 500px at 0% 100%, rgba(60,100,160,.25), transparent 60%);pointer-events:none}
+    .hero .grid-bg{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:56px 56px;mask-image:linear-gradient(to bottom,#000 30%,transparent 90%);-webkit-mask-image:linear-gradient(to bottom,#000 30%,transparent 90%);pointer-events:none}
+    .hero-inner{position:relative;display:grid;grid-template-columns:1.25fr .75fr;gap:56px;align-items:center}
+    .eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--yellow)}
+    .eyebrow::before{content:"";width:28px;height:2px;background:currentColor}
+    .hero h1{font-size:clamp(2.5rem,5.4vw,4.4rem);margin:22px 0 22px;font-weight:400}
+    .hero h1 em{font-style:italic;color:var(--yellow)}
+    .hero .lead{font-size:1.14rem;color:rgba(255,255,255,.78);max-width:600px;margin-bottom:34px}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:14px}
+    .hero-mark{justify-self:end;width:100%;max-width:420px;position:relative}
+    .hero-mark .ring{aspect-ratio:1;border-radius:50%;border:1px solid rgba(236,225,47,.28);display:grid;place-items:center;position:relative}
+    .hero-mark .ring::before{content:"";position:absolute;inset:34px;border-radius:50%;border:1px dashed rgba(255,255,255,.16)}
+    .hero-mark .ring::after{content:"";position:absolute;inset:78px;border-radius:50%;background:radial-gradient(circle at 30% 30%,rgba(236,225,47,.14),rgba(236,225,47,0) 70%)}
+    .hero-mark img{width:72%;position:relative;z-index:1}
+    .hero-mark .tag{position:absolute;background:var(--ink-2);border:1px solid var(--line-dark);color:#fff;font-size:.8rem;font-weight:600;padding:8px 14px;border-radius:999px;white-space:nowrap;box-shadow:0 10px 30px -12px rgba(0,0,0,.6)}
+    .hero-mark .tag b{color:var(--yellow);font-weight:700}
+    .hero-mark .tag{z-index:2}
+    .tag.t1{top:9%;left:-4%}
+    .tag.t2{bottom:22%;right:-6%}
+    .tag.t3{bottom:5%;left:6%}
+
+    .stats{position:relative;margin-top:88px;border-top:1px solid var(--line-dark);display:grid;grid-template-columns:repeat(4,1fr)}
+    .stat{padding:30px 26px 34px;border-right:1px solid var(--line-dark)}
+    .stat:last-child{border-right:0}
+    .stat .num{font-family:var(--serif);font-size:2.4rem;color:var(--yellow);line-height:1}
+    .stat .label{margin-top:10px;font-size:.9rem;color:rgba(255,255,255,.7);line-height:1.45}
+
+    /* ---------- Section basics ---------- */
+    .section{padding:110px 0}
+    .section-head{max-width:720px;margin-bottom:56px}
+    .section-head .eyebrow{color:#8A7E0C}
+    .section-head h2{font-size:clamp(2rem,3.6vw,2.9rem);margin-top:16px}
+    .section-head p{color:var(--muted);font-size:1.07rem;margin-top:18px}
+    .dark .section-head .eyebrow{color:var(--yellow)}
+    .dark .section-head p{color:rgba(255,255,255,.72)}
+    .hl{background:linear-gradient(transparent 62%,var(--yellow-soft) 62%);padding:0 .08em}
+
+    /* ---------- About ---------- */
+    .about-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:64px;align-items:start}
+    .about-copy p{font-size:1.12rem;color:#2B3647}
+    .about-copy p.big{font-family:var(--serif);font-size:1.6rem;line-height:1.4;color:var(--ink);margin-bottom:24px}
+    .pillars{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .pillar{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);padding:26px}
+    .pillar .ico{width:44px;height:44px;border-radius:12px;background:var(--ink);display:grid;place-items:center;margin-bottom:16px}
+    .pillar .ico svg{width:22px;height:22px;stroke:var(--yellow)}
+    .pillar h3{font-family:var(--sans);font-size:1.02rem;font-weight:700;margin-bottom:6px}
+    .pillar p{font-size:.94rem;color:var(--muted);margin:0}
+
+    /* ---------- Services ---------- */
+    .services{background:var(--paper);border-block:1px solid var(--line)}
+    .svc-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:20px}
+    .svc{grid-column:span 2;position:relative;background:var(--ivory);border:1px solid var(--line);border-radius:var(--radius);padding:32px 30px 30px;transition:transform .3s, box-shadow .3s, border-color .3s;overflow:hidden}
+    .svc:nth-child(4),.svc:nth-child(5){grid-column:span 3}
+    .svc::before{content:"";position:absolute;left:0;top:0;height:4px;width:100%;background:var(--yellow);transform:scaleX(0);transform-origin:left;transition:transform .35s}
+    .svc:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:transparent}
+    .svc:hover::before{transform:scaleX(1)}
+    .svc .n{font-family:var(--serif);font-size:.95rem;color:#A39614;margin-bottom:18px;display:block}
+    .svc .ico{width:52px;height:52px;border-radius:14px;background:var(--ink);display:grid;place-items:center;margin-bottom:20px}
+    .svc .ico svg{width:26px;height:26px;stroke:var(--yellow)}
+    .svc h3{font-size:1.45rem;margin-bottom:14px}
+    .svc ul{list-style:none;padding:0;margin:0}
+    .svc li{position:relative;padding-left:22px;margin:8px 0;color:#3A4556}
+    .svc li::before{content:"";position:absolute;left:0;top:.62em;width:10px;height:2px;background:var(--ink)}
+
+    /* ---------- Founder ---------- */
+    .founder{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+    .founder::before{content:"";position:absolute;right:-200px;top:-200px;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(236,225,47,.10),transparent 65%)}
+    .founder-grid{position:relative;display:grid;grid-template-columns:340px 1fr;gap:72px;align-items:start}
+    .portrait{position:relative}
+    .portrait .frame{position:relative;border-radius:22px;overflow:hidden;background:var(--ink-3);aspect-ratio:267/329;box-shadow:0 30px 60px -30px rgba(0,0,0,.7)}
+    .portrait .frame img{width:100%;height:100%;object-fit:cover}
+    .portrait .frame-wrap{position:relative}
+    .portrait .frame-wrap::before{content:"";position:absolute;inset:18px -18px -18px 18px;border:1.5px solid var(--yellow);border-radius:22px;opacity:.7}
+    .portrait figcaption{margin-top:40px}
+    .portrait figcaption strong{display:block;font-family:var(--serif);font-weight:500;font-size:1.35rem;line-height:1.3}
+    .portrait figcaption span{display:block;color:rgba(255,255,255,.65);font-size:.92rem;margin-top:6px}
+    .founder h2{font-size:clamp(2rem,3.6vw,2.9rem);margin:16px 0 24px}
+    .founder .intro{font-size:1.1rem;color:rgba(255,255,255,.8)}
+    .creds{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin:34px 0 40px}
+    .cred{display:flex;gap:14px;align-items:flex-start;background:rgba(255,255,255,.04);border:1px solid var(--line-dark);border-radius:14px;padding:16px 18px}
+    .cred .yr{flex:none;font-family:var(--serif);color:var(--yellow);font-size:1.05rem;min-width:46px;padding-top:1px}
+    .cred div{font-size:.95rem;line-height:1.45;color:rgba(255,255,255,.88)}
+    .cred small{display:block;color:rgba(255,255,255,.55);font-size:.8rem;margin-top:2px}
+    .tl-title{font-family:var(--sans);font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--yellow);margin:0 0 18px}
+    .journey{list-style:none;margin:0 0 40px;padding:0;border-left:1px solid var(--line-dark)}
+    .journey li{position:relative;padding:0 0 26px 28px}
+    .journey li:last-child{padding-bottom:0}
+    .journey li::before{content:"";position:absolute;left:-6px;top:6px;width:11px;height:11px;border-radius:50%;background:var(--ink);border:2px solid var(--yellow)}
+    .journey .when{font-size:.82rem;color:rgba(255,255,255,.55);font-weight:600;letter-spacing:.04em}
+    .journey h3{font-family:var(--sans);font-size:1.05rem;font-weight:700;margin:4px 0 6px}
+    .journey p{margin:0;color:rgba(255,255,255,.74);font-size:.96rem}
+    .facts{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .fact{border-top:1px solid var(--line-dark);padding-top:16px}
+    .fact h4{margin:0 0 6px;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.55);font-weight:600}
+    .fact p{margin:0;font-size:.95rem;color:rgba(255,255,255,.88)}
+
+    /* ---------- Talks ---------- */
+    .talks-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:64px;align-items:start}
+    .talks-side{position:sticky;top:110px}
+    .org-list{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}
+    .org{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:8px 14px;font-size:.86rem;font-weight:600;color:var(--ink)}
+    .talks{list-style:none;margin:0;padding:0;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+    .talk{display:grid;grid-template-columns:150px 1fr auto;gap:18px;align-items:center;padding:18px 24px;border-bottom:1px solid var(--line)}
+    .talk:last-child{border-bottom:0}
+    .talk time{font-size:.86rem;color:var(--muted);font-weight:600}
+    .talk .what{font-weight:600;color:var(--ink);line-height:1.4}
+    .talk .what small{display:block;font-weight:500;color:var(--muted);font-size:.86rem;margin-top:2px}
+    .role{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:6px 10px;border-radius:999px;background:var(--ivory);border:1px solid var(--line);color:#4A5466;white-space:nowrap}
+    .role.r-mentor{background:var(--ink);color:var(--yellow);border-color:var(--ink)}
+    .role.r-presenter{background:var(--yellow-soft);border-color:#E9DE6E;color:#4A4306}
+
+    /* ---------- Track record ---------- */
+    .record{background:var(--paper);border-block:1px solid var(--line)}
+    .record-top{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:48px}
+    .record-top .section-head{margin-bottom:0}
+    .applicants{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end}
+    .applicants .org{background:var(--ivory)}
+    .inv-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .inv{border:1px solid var(--line);border-radius:16px;padding:22px;background:var(--ivory);display:flex;flex-direction:column;gap:10px;transition:border-color .3s, transform .3s}
+    .inv:hover{border-color:var(--ink);transform:translateY(-3px)}
+    .inv .kind{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#8A7E0C}
+    .inv h3{font-family:var(--sans);font-size:1rem;font-weight:700;line-height:1.35;color:var(--ink)}
+    .inv p{margin:auto 0 0;font-size:.85rem;color:var(--muted);line-height:1.45}
+    .src{margin-top:28px;font-size:.86rem;color:var(--muted)}
+
+    /* ---------- Team ---------- */
+    .team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+    .member{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
+    .member .ph{aspect-ratio:4/3.4;background:#E9E5D6;overflow:hidden}
+    .member .ph img{width:100%;height:100%;object-fit:cover;object-position:center 22%}
+    .member .body{padding:26px 26px 30px}
+    .member .role-t{font-size:.76rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#8A7E0C}
+    .member h3{font-size:1.3rem;margin:8px 0 14px}
+    .member p{font-size:.95rem;color:#3E4959;margin:0 0 .8em}
+    .member ul{margin:0;padding-left:18px;font-size:.92rem;color:#3E4959}
+    .member li{margin:4px 0}
+
+    /* ---------- Contact ---------- */
+    .contact{background:var(--ink);color:#fff;position:relative;overflow:hidden}
+    .contact::after{content:"";position:absolute;left:50%;bottom:-420px;transform:translateX(-50%);width:1100px;height:600px;border-radius:50%;background:radial-gradient(closest-side,rgba(236,225,47,.14),transparent)}
+    .contact-card{position:relative;z-index:1;text-align:center;max-width:780px;margin:0 auto}
+    .contact h2{font-size:clamp(2.2rem,4.4vw,3.5rem);margin:18px 0 20px;font-weight:400}
+    .contact h2 em{color:var(--yellow)}
+    .contact p{color:rgba(255,255,255,.75);font-size:1.1rem;max-width:600px;margin:0 auto 34px}
+    .mail{display:inline-flex;align-items:center;gap:14px;font-family:var(--serif);font-size:clamp(1.3rem,3vw,2rem);color:#fff;text-decoration:none;border-bottom:2px solid var(--yellow);padding-bottom:6px;transition:color .2s}
+    .mail:hover{color:var(--yellow)}
+    .mail svg{width:28px;height:28px;stroke:var(--yellow);flex:none}
+    .contact .langs{margin-top:44px;font-size:.92rem;color:rgba(255,255,255,.6)}
+
+    footer{background:#0A1422;color:rgba(255,255,255,.6);font-size:.88rem}
+    footer .wrap{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;padding:28px 0}
+    footer img{height:26px;width:auto}
+    footer a{color:rgba(255,255,255,.8);text-decoration:none}
+    footer a:hover{color:var(--yellow)}
+
+    /* ---------- Reveal ---------- */
+    .js .reveal{opacity:0;transform:translateY(22px);transition:opacity .8s cubic-bezier(.2,.7,.2,1), transform .8s cubic-bezier(.2,.7,.2,1)}
+    .js .reveal.in{opacity:1;transform:none}
+    .js .reveal.d1{transition-delay:.08s}.js .reveal.d2{transition-delay:.16s}.js .reveal.d3{transition-delay:.24s}.js .reveal.d4{transition-delay:.32s}
+    @media (prefers-reduced-motion: reduce){
+      html{scroll-behavior:auto}
+      .js .reveal{opacity:1;transform:none;transition:none}
+      *{transition:none!important}
+    }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width:1080px){
+      .inv-grid{grid-template-columns:repeat(2,1fr)}
+      .founder-grid{grid-template-columns:280px 1fr;gap:56px}
+      .creds{grid-template-columns:1fr}
+      .tag.t1{left:0}.tag.t2{right:-2%}
+    }
+    @media (max-width:920px){
+      .burger{display:block}
+      .menu{position:fixed;inset:72px 0 auto 0;flex-direction:column;align-items:stretch;gap:0;background:var(--ink);padding:10px 24px 26px;border-bottom:1px solid var(--line-dark);transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s, transform .25s, visibility .25s}
+      .menu.open{opacity:1;transform:none;visibility:visible}
+      .menu li{border-bottom:1px solid var(--line-dark)}
+      .menu li:last-child{border-bottom:0;padding-top:18px}
+      .menu a{display:block;padding:15px 0;font-size:1.02rem}
+      .menu a::after{display:none}
+      .menu .cta-link{text-align:center}
+      .hero{padding-top:64px}
+      .hero-inner{grid-template-columns:1fr;gap:40px}
+      .hero-mark{justify-self:center;max-width:340px}
+      .stats{grid-template-columns:repeat(2,1fr);margin-top:64px}
+      .stat:nth-child(2){border-right:0}
+      .stat:nth-child(-n+2){border-bottom:1px solid var(--line-dark)}
+      .about-grid,.talks-grid,.record-top{grid-template-columns:1fr;gap:40px}
+      .talks-side{position:static}
+      .applicants{justify-content:flex-start}
+      .svc-grid{grid-template-columns:1fr 1fr}
+      .svc,.svc:nth-child(4),.svc:nth-child(5){grid-column:span 1}
+      .svc:nth-child(5){grid-column:span 2}
+      .founder-grid{grid-template-columns:1fr;gap:48px}
+      .portrait{max-width:300px}
+      .team-grid{grid-template-columns:1fr 1fr}
+      .team-grid .member:first-child{grid-column:span 2;flex-direction:row}
+      .team-grid .member:first-child .ph{flex:0 0 42%;aspect-ratio:auto}
+      .section{padding:84px 0}
+    }
+    @media (max-width:640px){
+      body{font-size:16px}
+      .wrap{width:min(var(--max),100% - 36px)}
+      .brand img{height:28px}
+      .hero h1{font-size:2.45rem}
+      .hero .lead{font-size:1.04rem}
+      .hero-actions .btn{flex:1 1 100%;justify-content:center}
+      .hero-mark{max-width:300px}
+      .hero-mark .tag{font-size:.72rem;padding:6px 11px}
+      .stat{padding:24px 16px 26px}
+      .stat .num{font-size:2rem}
+      .stat .label{font-size:.84rem}
+      .pillars,.svc-grid,.team-grid,.inv-grid,.facts{grid-template-columns:1fr}
+      .svc:nth-child(5){grid-column:span 1}
+      .team-grid .member:first-child{grid-column:span 1;flex-direction:column}
+      .team-grid .member:first-child .ph{aspect-ratio:4/3.4}
+      .talk{grid-template-columns:1fr auto;gap:6px 14px;padding:16px 18px}
+      .talk time{grid-column:1 / -1}
+      .about-copy p.big{font-size:1.35rem}
+      .section{padding:72px 0}
+      .section-head{margin-bottom:40px}
+      .portrait{max-width:260px;margin-inline:auto 18px}
+      .mail{font-size:1.25rem}
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="wrap">
+      <a class="brand" href="#top" aria-label="IPSury, back to top">
+        <img src="assets/logo.svg" alt="IPSury" width="120" height="35">
+      </a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+      <nav aria-label="Main">
+        <ul class="menu" id="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#founder">Founder</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#record">Track record</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a class="cta-link" href="#contact">Contact us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="grid-bg" aria-hidden="true"></div>
+      <div class="wrap">
+        <div class="hero-inner">
+          <div>
+            <span class="eyebrow reveal">Intellectual Property Services &amp; Consultation</span>
+            <h1 id="hero-title" class="reveal d1">Your ideas are precious. <em>Let’s protect them.</em></h1>
+            <p class="lead reveal d2">IPSury provides services and consultation on patents, trademarks, industrial designs and copyright, with IP strategies that suit each and every client.</p>
+            <div class="hero-actions reveal d3">
+              <a class="btn btn-primary" href="#services">Explore our services
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+              <a class="btn btn-ghost" href="mailto:afiqah@ipsury.com">afiqah@ipsury.com</a>
+            </div>
+          </div>
+          <div class="hero-mark reveal d2" aria-hidden="true">
+            <div class="ring"><img src="assets/logo.svg" alt=""></div>
+            <span class="tag t1"><b>Patent</b> · Trademark · Design</span>
+            <span class="tag t2">Certified <b>IP Valuer</b></span>
+            <span class="tag t3">Former <b>WIPO</b> Young Expert</span>
+          </div>
+        </div>
+        <div class="stats">
+          <div class="stat reveal"><div class="num">13</div><div class="label">years of experience in intellectual property</div></div>
+          <div class="stat reveal d1"><div class="num">3</div><div class="label">registrations in Malaysia: patent, trademark &amp; industrial design agent</div></div>
+          <div class="stat reveal d2"><div class="num">2</div><div class="label">years at WIPO, Geneva, as its first Malaysian Young Expert</div></div>
+          <div class="stat reveal d3"><div class="num">3</div><div class="label">working languages: Malay, English &amp; Japanese</div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our company</span>
+          <h2 id="about-title">A young but professional IP firm that <span class="hl">listens first</span>.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="big">IPSury is a firm that provides services and consultation on Intellectual Property.</p>
+            <p>Being a young but professional company, we pride ourselves on being an engaging company that always listens to our clients’ needs.</p>
+            <p>With an in-depth knowledge of IP and comprehension of various technical fields, our team expertly deals with each client’s precious IP by providing IP strategies that suit each and every client.</p>
+          </div>
+          <div class="pillars">
+            <div class="pillar reveal d1">
+              <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
+              <h3>We listen</h3>
+              <p>An engaging team that starts with your needs.</p>
+            </div>
+            <div class="pillar reveal d2">
+              <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18.5 21 12 16.5 5.5 21l2-7.5L2 9h7z"/></svg></div>
+              <h3>In-depth IP knowledge</h3>
+              <p>Patents, trademarks, industrial designs and copyright.</p>
+            </div>
+            <div class="pillar reveal d3">
+              <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9zM9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg></div>
+              <h3>Technical depth</h3>
+              <p>Electrical, electronic, mechanical and computer science.</p>
+            </div>
+            <div class="pillar reveal d4">
+              <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
+              <h3>Tailored strategy</h3>
+              <p>IP strategies that suit each and every client.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section services" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our services</span>
+          <h2 id="services-title">End-to-end support for your intellectual property.</h2>
+          <p>From the first search to filing and maintenance, plus training to build IP awareness in your organisation.</p>
+        </div>
+        <div class="svc-grid">
+          <article class="svc reveal">
+            <span class="n">01</span>
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.6 10.8c.6.5 1 1.2 1.1 2V16h5v-.2c.1-.8.5-1.5 1.1-2A6 6 0 0 0 12 3z"/></svg></div>
+            <h3>Patent Services</h3>
+            <ul><li>Patent search</li><li>Patent drafting</li><li>Patent filing and maintenance</li></ul>
+          </article>
+          <article class="svc reveal d1">
+            <span class="n">02</span>
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 9h8M12 9v7"/></svg></div>
+            <h3>Trademark Services</h3>
+            <ul><li>Availability search</li><li>Trademark filing and maintenance</li></ul>
+          </article>
+          <article class="svc reveal d2">
+            <span class="n">03</span>
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2l9 5v10l-9 5-9-5V7z"/><path d="M12 22V12M21 7l-9 5-9-5"/></svg></div>
+            <h3>Industrial Design Services</h3>
+            <ul><li>Design searches</li><li>Industrial design filing and maintenance</li></ul>
+          </article>
+          <article class="svc reveal">
+            <span class="n">04</span>
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15 9.5a4 4 0 1 0 0 5"/></svg></div>
+            <h3>Copyright Services</h3>
+            <ul><li>Copyright voluntary notification</li></ul>
+          </article>
+          <article class="svc reveal d1">
+            <span class="n">05</span>
+            <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 8l10-5 10 5-10 5z"/><path d="M6 10v5c0 1.7 2.7 3 6 3s6-1.3 6-3v-5M22 8v6"/></svg></div>
+            <h3>IP Training</h3>
+            <ul><li>Awareness talks</li><li>Introduction to IP</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FOUNDER ================= -->
+    <section class="section founder dark" id="founder" aria-labelledby="founder-title">
+      <div class="wrap founder-grid">
+        <figure class="portrait reveal" style="margin:0">
+          <div class="frame-wrap"><div class="frame">
+            <picture>
+              <source srcset="assets/afiqah.webp" type="image/webp">
+              <img src="assets/afiqah.jpg" alt="Portrait of Afiqah Aisyah binti Suriyadi" width="267" height="329" loading="lazy">
+            </picture>
+          </div></div>
+          <figcaption>
+            <strong>Afiqah Aisyah binti Suriyadi</strong>
+            <span>Managing Director &amp; Founder, IPSury Enterprise</span>
+          </figcaption>
+        </figure>
+
+        <div>
+          <span class="eyebrow reveal">Meet the founder</span>
+          <h2 id="founder-title" class="reveal d1">Engineer by training. IP specialist by passion.</h2>
+          <p class="intro reveal d2">Afiqah founded IPSury and leads it as Managing Director. She brings 13 years of experience in IP, an engineering background from Japan and the UK, and hands-on experience at the World Intellectual Property Organization (WIPO) in Geneva.</p>
+
+          <div class="creds">
+            <div class="cred reveal"><span class="yr">2016</span><div>Registered Patent Agent<small>Malaysia</small></div></div>
+            <div class="cred reveal d1"><span class="yr">2018</span><div>Registered Trademark Agent<small>Malaysia</small></div></div>
+            <div class="cred reveal d2"><span class="yr">2019</span><div>Registered Industrial Design Agent<small>Malaysia</small></div></div>
+            <div class="cred reveal d3"><span class="yr">2025</span><div>Certified IP Valuer</div></div>
+          </div>
+
+          <h3 class="tl-title reveal">Career journey</h3>
+          <ol class="journey">
+            <li class="reveal">
+              <span class="when">Present · Founder &amp; Managing Director</span>
+              <h3>IPSury Enterprise</h3>
+              <p>Leading IPSury’s IP services and consultation, working comfortably with local and international associates.</p>
+            </li>
+            <li class="reveal">
+              <span class="when">Feb 2023 – Feb 2025 · Geneva, Switzerland</span>
+              <h3>Young Expert, World Intellectual Property Organization (WIPO)</h3>
+              <p>Alongside overseeing IPSury, she served at this UN specialised agency as its first Malaysian Young Expert. In her first year she supported Patent Cooperation Treaty (PCT) users, handled PCT-related matters, published the weekly official PCT Gazette and helped raise IP awareness among youth. In her second year she joined the Customer Experience Section, working on WIPO’s digital content and newsletters.</p>
+            </li>
+            <li class="reveal">
+              <span class="when">6 years · Kuala Lumpur</span>
+              <h3>IP Consultant at a well-established IP firm</h3>
+              <p>Managed multiple important clients, handling patents, trademarks, industrial designs and copyrights through protection, prosecution, portfolio management and strategic use of their IP.</p>
+            </li>
+            <li class="reveal">
+              <span class="when">Professional training</span>
+              <h3>SEAD &amp; JPO courses</h3>
+              <p>South East Asian Patent Drafting (SEAD) Training Course by FICPI, and the Japan Patent Office (JPO) / IPR Training Course for Patent Experts.</p>
+            </li>
+          </ol>
+
+          <div class="facts">
+            <div class="fact reveal"><h4>Education</h4><p>MSc Electronic Engineering with Business Management, King’s College London (2012)<br>BEng Electrical &amp; Electronic Engineering, Kobe University, Japan (2011)</p></div>
+            <div class="fact reveal d1"><h4>Technical fields</h4><p>Electrical, Electronic, Mechanical and Computer Science</p></div>
+            <div class="fact reveal d2"><h4>Languages</h4><p>Fluent in Malay, English and Japanese; basic French, Spanish, Mandarin and Arabic</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TALKS ================= -->
+    <section class="section" id="talks" aria-labelledby="talks-title">
+      <div class="wrap talks-grid">
+        <div class="talks-side">
+          <div class="section-head reveal" style="margin-bottom:0">
+            <span class="eyebrow">Talks &amp; training</span>
+            <h2 id="talks-title">Sharing IP insight with every audience.</h2>
+            <p>Afiqah enjoys sharing her insights on IP with people from different educational backgrounds, and has been invited to give numerous talks and seminars, from patent-writing workshops to start-up mentoring.</p>
+          </div>
+          <div class="org-list reveal d1" aria-label="Organisers">
+            <span class="org">WIPO</span>
+            <span class="org">Jabatan Kerja Raya (JKR)</span>
+            <span class="org">UPSI</span>
+            <span class="org">UKM</span>
+            <span class="org">Multimedia University</span>
+            <span class="org">MIMOS Berhad</span>
+          </div>
+        </div>
+        <ol class="talks reveal d1" reversed>
+          <li class="talk"><time>Sept 2024</time><div class="what">EPFL Blaze Startup Accelerator Workshop II<small>WIPO</small></div><span class="role r-mentor">Mentor</span></li>
+          <li class="talk"><time>10 May 2024</time><div class="what">EPFL Blaze Startup Accelerator Workshop<small>WIPO</small></div><span class="role r-mentor">Mentor</span></li>
+          <li class="talk"><time>30 Mar 2023</time><div class="what">Introduction to PCT<small>WIPO</small></div><span class="role r-presenter">Presenter</span></li>
+          <li class="talk"><time>10 Jun 2021</time><div class="what">Introduction to IP<small>Jabatan Kerja Raya (JKR)</small></div><span class="role r-presenter">Presenter</span></li>
+          <li class="talk"><time>29 Mar 2021</time><div class="what">IP Pitching Session<small>Universiti Pendidikan Sultan Idris (UPSI)</small></div><span class="role">IP Panel</span></li>
+          <li class="talk"><time>23–25 Mar 2021</time><div class="what">Bengkel Due Diligence JKR Malaysia 2021<small>Jabatan Kerja Raya (JKR)</small></div><span class="role">Panel</span></li>
+          <li class="talk"><time>8 Feb 2021</time><div class="what">Introduction to IP: Industrial Design<small>Jabatan Kerja Raya (JKR)</small></div><span class="role r-presenter">Presenter</span></li>
+          <li class="talk"><time>2020 (3 sessions)</time><div class="what">IP Pitching Sessions<small>UPSI · May, Aug &amp; Oct 2020</small></div><span class="role">IP Panel</span></li>
+          <li class="talk"><time>2–3 Apr 2019</time><div class="what">IP Commercialisation &amp; Licensing<small>Jabatan Kerja Raya (JKR)</small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>4 Sep 2018</time><div class="what">Introduction to IP<small>Universiti Kebangsaan Malaysia (UKM)</small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>9 Aug 2018</time><div class="what">IP Introduction &amp; IP Commercialisation<small>Universiti Pendidikan Sultan Idris (UPSI)</small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>23–25 Oct 2017</time><div class="what">Kursus Penyediaan Spesifikasi Produk Paten (Patent Writing) &amp; Proses Pendaftaran Karya Sukarela Hak Cipta<small>Jabatan Kerja Raya (JKR)</small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>19 Jul 2016</time><div class="what">Introduction to IP<small>Multimedia University (MMU)</small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>29–30 Mar 2016</time><div class="what">Kursus Tatacara Pendaftaran Spesifikasi Produk Paten (Patent Writing)<small>Jabatan Kerja Raya (JKR)</small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>19 Jun 2014</time><div class="what">MIMOS IP Training<small>MIMOS Berhad</small></div><span class="role">Speaker</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ================= TRACK RECORD ================= -->
+    <section class="section record" id="record" aria-labelledby="record-title">
+      <div class="wrap">
+        <div class="record-top">
+          <div class="section-head reveal">
+            <span class="eyebrow">Track record</span>
+            <h2 id="record-title">Inventions across engineering, science and healthcare.</h2>
+            <p>WIPO’s PATENTSCOPE database lists 24 published Malaysian patent and utility innovation records naming Afiqah Aisyah as representative, for universities, research agencies, government bodies and companies.</p>
+          </div>
+          <div class="applicants reveal d1" aria-label="Applicants include">
+            <span class="org">Jabatan Kerja Raya Malaysia</span>
+            <span class="org">CREaTE (JKR)</span>
+            <span class="org">MIMOS Berhad</span>
+            <span class="org">Universiti Pendidikan Sultan Idris</span>
+            <span class="org">Universiti Kebangsaan Malaysia</span>
+            <span class="org">Universiti Putra Malaysia</span>
+            <span class="org">International Islamic University Malaysia</span>
+            <span class="org">Hard &amp; Soft Automation Sdn Bhd</span>
+          </div>
+        </div>
+        <div class="inv-grid">
+          <article class="inv reveal"><span class="kind">Electronics</span><h3>A gas sensor and a method for fabricating thereof</h3><p>MIMOS Berhad</p></article>
+          <article class="inv reveal d1"><span class="kind">Electronics</span><h3>A system and method for providing a fixed output voltage</h3><p>MIMOS Berhad</p></article>
+          <article class="inv reveal d2"><span class="kind">Energy</span><h3>A system for generating electrical power</h3><p>CREaTE (JKR)</p></article>
+          <article class="inv reveal d3"><span class="kind">Audio &amp; health</span><h3>A device and method for hearing protection</h3><p>International Islamic University Malaysia</p></article>
+          <article class="inv reveal"><span class="kind">IoT</span><h3>A compost monitoring system</h3><p>Universiti Pendidikan Sultan Idris</p></article>
+          <article class="inv reveal d1"><span class="kind">Infrastructure</span><h3>A road construction measuring device</h3><p>Jabatan Kerja Raya Malaysia</p></article>
+          <article class="inv reveal d2"><span class="kind">Materials</span><h3>Surfactant for producing graphene oxide</h3><p>Universiti Pendidikan Sultan Idris</p></article>
+          <article class="inv reveal d3"><span class="kind">Life sciences</span><h3>Larvicides and a method of preparing thereof</h3><p>Universiti Kebangsaan Malaysia</p></article>
+        </div>
+        <p class="src">Source: WIPO PATENTSCOPE search, representative “Afiqah Aisyah”. A selection of titles shown.</p>
+      </div>
+    </section>
+
+    <!-- ================= TEAM ================= -->
+    <section class="section" id="team" aria-labelledby="team-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Our team</span>
+          <h2 id="team-title">Experience you can rely on.</h2>
+          <p>A small team combining IP expertise, deep legal experience and seasoned administration.</p>
+        </div>
+        <div class="team-grid">
+          <article class="member reveal">
+            <div class="ph"><picture><source srcset="assets/afiqah.webp" type="image/webp"><img src="assets/afiqah.jpg" alt="Afiqah Aisyah binti Suriyadi" width="267" height="329" loading="lazy"></picture></div>
+            <div class="body">
+              <span class="role-t">Managing Director</span>
+              <h3>Afiqah Aisyah binti Suriyadi</h3>
+              <p>Founder of IPSury with 13 years of experience in IP, and a former Young Expert at WIPO, Geneva.</p>
+              <ul>
+                <li>Registered Patent, Trademark and Industrial Design Agent</li>
+                <li>Certified IP Valuer</li>
+                <li>MSc Electronic Engineering with Business Management</li>
+                <li>BEng Electrical and Electronic Engineering</li>
+              </ul>
+            </div>
+          </article>
+          <article class="member reveal d1">
+            <div class="ph"><picture><source srcset="assets/suriyadi.webp" type="image/webp"><img src="assets/suriyadi.jpg" alt="Tan Sri Datuk Suriyadi bin Halim Omar" width="244" height="272" loading="lazy"></picture></div>
+            <div class="body">
+              <span class="role-t">Legal Advisor</span>
+              <h3>Tan Sri Datuk Suriyadi bin Halim Omar</h3>
+              <p>LL.B. (Hons.), University of Warwick; called to the Bar as Barrister-at-Law at Lincoln’s Inn, London (1975). A High Court Judge from 1996, he was elevated to the Court of Appeal in 2006 and served as a Judge of the Federal Court of Malaysia from 2010 until his retirement in 2017.</p>
+              <p>He later served on the Judicial Appointments Commission and was Director of the Asian International Arbitration Centre (AIAC) from 2020 to 2022, with extensive knowledge across Malaysian law, including intellectual property law.</p>
+            </div>
+          </article>
+          <article class="member reveal d2">
+            <div class="ph"><picture><source srcset="assets/faridah.webp" type="image/webp"><img src="assets/faridah.jpg" alt="Faridah binti Abd Samad" width="306" height="358" loading="lazy"></picture></div>
+            <div class="body">
+              <span class="role-t">Admin Officer</span>
+              <h3>Faridah binti Abd Samad</h3>
+              <p>BSc (Hons.) in Chemistry and Mathematics, Houston Baptist University, Texas (1978). Served more than 23 years with the Royal Malaysian Customs Department, including the Enforcement, Sales Tax and GST Divisions.</p>
+              <p>Her vast experience in audit and administration keeps IPSury running smoothly.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section contact dark" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-card">
+        <span class="eyebrow reveal">Reach us</span>
+        <h2 id="contact-title" class="reveal d1">Let’s talk about <em>your IP</em>.</h2>
+        <p class="reveal d2">Whether you need a patent search, a trademark filing or an IP awareness talk for your team, we’re happy to hear about your needs.</p>
+        <a class="mail reveal d3" href="mailto:afiqah@ipsury.com">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+          afiqah@ipsury.com
+        </a>
+        <!-- Phone number intentionally omitted: the source profile lists "+6017 36132", which appears incomplete. Add it here once confirmed, e.g.
+        <p><a href="tel:+6017XXXXXXX">+60 17-XXX XXXX</a></p> -->
+        <p class="langs reveal">We work in Malay, English and Japanese.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <img src="assets/logo.svg" alt="IPSury" width="90" height="26">
+      <span>© <span id="yr">2026</span> IPSury Enterprise (002964159-T). All rights reserved.</span>
+      <a href="#top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    (function(){
+      var nav=document.querySelector('.nav'), burger=document.querySelector('.burger'), menu=document.getElementById('menu');
+      document.getElementById('yr').textContent=new Date().getFullYear();
+      function onScroll(){ nav.classList.toggle('scrolled', window.scrollY>10); }
+      window.addEventListener('scroll', onScroll, {passive:true}); onScroll();
+      function setMenu(open){ menu.classList.toggle('open',open); burger.setAttribute('aria-expanded',open); burger.setAttribute('aria-label',open?'Close menu':'Open menu'); }
+      burger.addEventListener('click', function(){ setMenu(!menu.classList.contains('open')); });
+      menu.addEventListener('click', function(e){ if(e.target.closest('a')) setMenu(false); });
+      document.addEventListener('keydown', function(e){ if(e.key==='Escape') setMenu(false); });
+
+      var links=[].slice.call(menu.querySelectorAll('a[href^="#"]'));
+      if('IntersectionObserver' in window){
+        var io=new IntersectionObserver(function(entries){
+          entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } });
+        },{rootMargin:'0px 0px -8% 0px',threshold:.08});
+        document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+
+        var spy=new IntersectionObserver(function(entries){
+          entries.forEach(function(en){
+            if(en.isIntersecting){
+              links.forEach(function(a){ a.classList.toggle('active', a.getAttribute('href')==='#'+en.target.id); });
+            }
+          });
+        },{rootMargin:'-45% 0px -50% 0px'});
+        document.querySelectorAll('main section[id]').forEach(function(s){ spy.observe(s); });
+      } else {
+        document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); });
+      }
+    })();
+  </script>
+</body>
+</html>
