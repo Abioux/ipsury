@@ -224,6 +224,8 @@
     .role.r-mentor{background:var(--ink);color:var(--yellow);border-color:var(--ink)}
     .role.r-presenter{background:var(--yellow-soft);border-color:#E9DE6E;color:#4A4306}
 
+    .redact{filter:blur(5px);-webkit-user-select:none;user-select:none;pointer-events:none;display:inline-block}
+    .sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
     /* ---------- Track record ---------- */
     .record{background:var(--paper);border-block:1px solid var(--line)}
     .record-top{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:end;margin-bottom:48px}
@@ -548,29 +550,29 @@
           </div>
           <div class="org-list reveal d1" aria-label="Organisers">
             <span class="org">WIPO</span>
-            <span class="org">Jabatan Kerja Raya (JKR)</span>
-            <span class="org">UPSI</span>
-            <span class="org">UKM</span>
-            <span class="org">Multimedia University</span>
-            <span class="org">MIMOS Berhad</span>
+            <span class="org"><span class="redact" aria-hidden="true">Lorem Ipsum Dolo (Lrm)</span><span class="sr-only">Organisation withheld</span></span>
+            <span class="org"><span class="redact" aria-hidden="true">Lore</span><span class="sr-only">Organisation withheld</span></span>
+            <span class="org"><span class="redact" aria-hidden="true">Lor</span><span class="sr-only">Organisation withheld</span></span>
+            <span class="org"><span class="redact" aria-hidden="true">Lorem Ipsum</span><span class="sr-only">Organisation withheld</span></span>
+            <span class="org"><span class="redact" aria-hidden="true">Lorem Ipsum</span><span class="sr-only">Organisation withheld</span></span>
           </div>
         </div>
         <ol class="talks reveal d1" reversed>
           <li class="talk"><time>Sept 2024</time><div class="what">EPFL Blaze Startup Accelerator Workshop II<small>WIPO</small></div><span class="role r-mentor">Mentor</span></li>
           <li class="talk"><time>10 May 2024</time><div class="what">EPFL Blaze Startup Accelerator Workshop<small>WIPO</small></div><span class="role r-mentor">Mentor</span></li>
           <li class="talk"><time>30 Mar 2023</time><div class="what">Introduction to PCT<small>WIPO</small></div><span class="role r-presenter">Presenter</span></li>
-          <li class="talk"><time>10 Jun 2021</time><div class="what">Introduction to IP<small>Jabatan Kerja Raya (JKR)</small></div><span class="role r-presenter">Presenter</span></li>
-          <li class="talk"><time>29 Mar 2021</time><div class="what">IP Pitching Session<small>Universiti Pendidikan Sultan Idris (UPSI)</small></div><span class="role">IP Panel</span></li>
-          <li class="talk"><time>23–25 Mar 2021</time><div class="what">Bengkel Due Diligence JKR Malaysia 2021<small>Jabatan Kerja Raya (JKR)</small></div><span class="role">Panel</span></li>
-          <li class="talk"><time>8 Feb 2021</time><div class="what">Introduction to IP: Industrial Design<small>Jabatan Kerja Raya (JKR)</small></div><span class="role r-presenter">Presenter</span></li>
-          <li class="talk"><time>2020 (3 sessions)</time><div class="what">IP Pitching Sessions<small>UPSI · May, Aug &amp; Oct 2020</small></div><span class="role">IP Panel</span></li>
-          <li class="talk"><time>2–3 Apr 2019</time><div class="what">IP Commercialisation &amp; Licensing<small>Jabatan Kerja Raya (JKR)</small></div><span class="role">Speaker</span></li>
-          <li class="talk"><time>4 Sep 2018</time><div class="what">Introduction to IP<small>Universiti Kebangsaan Malaysia (UKM)</small></div><span class="role">Speaker</span></li>
-          <li class="talk"><time>9 Aug 2018</time><div class="what">IP Introduction &amp; IP Commercialisation<small>Universiti Pendidikan Sultan Idris (UPSI)</small></div><span class="role">Speaker</span></li>
-          <li class="talk"><time>23–25 Oct 2017</time><div class="what">Kursus Penyediaan Spesifikasi Produk Paten (Patent Writing) &amp; Proses Pendaftaran Karya Sukarela Hak Cipta<small>Jabatan Kerja Raya (JKR)</small></div><span class="role">Speaker</span></li>
-          <li class="talk"><time>19 Jul 2016</time><div class="what">Introduction to IP<small>Multimedia University (MMU)</small></div><span class="role">Speaker</span></li>
-          <li class="talk"><time>29–30 Mar 2016</time><div class="what">Kursus Tatacara Pendaftaran Spesifikasi Produk Paten (Patent Writing)<small>Jabatan Kerja Raya (JKR)</small></div><span class="role">Speaker</span></li>
-          <li class="talk"><time>19 Jun 2014</time><div class="what">MIMOS IP Training<small>MIMOS Berhad</small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>10 Jun 2021</time><div class="what">Introduction to IP<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolo (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role r-presenter">Presenter</span></li>
+          <li class="talk"><time>29 Mar 2021</time><div class="what">IP Pitching Session<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolor Sitam (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">IP Panel</span></li>
+          <li class="talk"><time>23–25 Mar 2021</time><div class="what">Bengkel Due Diligence <span class="redact" aria-hidden="true">Lor</span><span class="sr-only">Organisation withheld</span> 2021<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolo (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">Panel</span></li>
+          <li class="talk"><time>8 Feb 2021</time><div class="what">Introduction to IP: Industrial Design<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolo (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role r-presenter">Presenter</span></li>
+          <li class="talk"><time>2020 (3 sessions)</time><div class="what">IP Pitching Sessions<small><span class="redact" aria-hidden="true">Lore</span><span class="sr-only">Organisation withheld</span> · May, Aug &amp; Oct 2020</small></div><span class="role">IP Panel</span></li>
+          <li class="talk"><time>2–3 Apr 2019</time><div class="what">IP Commercialisation &amp; Licensing<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolo (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>4 Sep 2018</time><div class="what">Introduction to IP<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolor (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>9 Aug 2018</time><div class="what">IP Introduction &amp; IP Commercialisation<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolor Sitam (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>23–25 Oct 2017</time><div class="what">Kursus Penyediaan Spesifikasi Produk Paten (Patent Writing) &amp; Proses Pendaftaran Karya Sukarela Hak Cipta<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolo (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>19 Jul 2016</time><div class="what">Introduction to IP<small><span class="redact" aria-hidden="true">Lorem Ipsum (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>29–30 Mar 2016</time><div class="what">Kursus Tatacara Pendaftaran Spesifikasi Produk Paten (Patent Writing)<small><span class="redact" aria-hidden="true">Lorem Ipsum Dolo (Lrm)</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">Speaker</span></li>
+          <li class="talk"><time>19 Jun 2014</time><div class="what"><span class="redact" aria-hidden="true">Lorem</span><span class="sr-only">Organisation withheld</span> IP Training<small><span class="redact" aria-hidden="true">Lorem Ipsum</span><span class="sr-only">Organisation withheld</span></small></div><span class="role">Speaker</span></li>
         </ol>
       </div>
     </section>
@@ -582,7 +584,7 @@
           <div class="section-head reveal">
             <span class="eyebrow">Track record</span>
             <h2 id="record-title">Inventions across engineering, science and healthcare.</h2>
-            <p>WIPO’s PATENTSCOPE database lists 24 published Malaysian patent and utility innovation records naming Afiqah Aisyah as representative, for universities, research agencies, government bodies and companies.</p>
+            <p>WIPO’s patent database lists 24 published Malaysian patent and utility innovation records naming Afiqah Aisyah as representative, for universities, research agencies, government bodies and companies.</p>
           </div>
         </div>
         <div class="inv-grid">
@@ -595,7 +597,7 @@
           <article class="inv reveal d2"><span class="kind">Materials</span><h3>Surfactant for producing graphene oxide</h3></article>
           <article class="inv reveal d3"><span class="kind">Life sciences</span><h3>Larvicides and a method of preparing thereof</h3></article>
         </div>
-        <p class="src">Source: WIPO PATENTSCOPE search, representative “Afiqah Aisyah”. A selection of titles shown.</p>
+        <p class="src">Source: WIPO patent records. A selection of titles shown.</p>
       </div>
     </section>
 
